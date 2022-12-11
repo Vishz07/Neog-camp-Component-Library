@@ -21,13 +21,15 @@ body{
 .links{
   text-decoration: none;
   padding: 0.5rem 1rem;
-  
+  box-sizing: border-box;
+
 }
 
 .link-primary{
   background-color:var(--primary-color);
   border-radius: 0.5rem;
   color: aliceblue;
+
   
 
 }
@@ -116,4 +118,21 @@ text-align:center;
 }
 .footer ul{
   padding-inline-start: 0px;
+}
+.small-dis{
+  text-align: center;
+  display: block;
+  margin: 0;
+  padding: 0%;
+  text-size-adjust:2rem;
+
+}
+
+.no-padding{
+  padding-inline-start: 0%;
+}
+
+.footer .footer-header{
+  font-size: large;
+  font-weight: bolder;
 }
