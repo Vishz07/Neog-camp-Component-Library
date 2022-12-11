@@ -3,10 +3,12 @@
 :root{
   --primary-color:#60a5fa;
   --dark-grey:#525252;
+  --offwhite:#f3f4f6;
 }
 
 body{
   font-family: 'Roboto Mono', monospace;
+  margin: 0px;
 }
 
 .container{
@@ -19,6 +21,7 @@ body{
 .links{
   text-decoration: none;
   padding: 0.5rem 1rem;
+  
 }
 
 .link-primary{
@@ -33,6 +36,9 @@ body{
   border-radius: 0.5rem;
   border: 2px solid var(--primary-color);
   
+}
+.link-align{
+  text-align: center;
 }
 hr{
   margin:2rem 0rem;
@@ -86,5 +92,28 @@ text-align:center;
 
 .section h1{
   text-align: center;
+ 
+}
+.section{
   padding: 2rem;
+}
+.ow{
+  background-color: var(--offwhite);
+;
+}
+
+/* footer */
+.footer{
+  background-color: var(--primary-color);
+  padding: 2rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 1rem;
+}
+
+.footer .links{
+  color: white;
+}
+.footer ul{
+  padding-inline-start: 0px;
 }
