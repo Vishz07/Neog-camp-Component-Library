@@ -69,6 +69,10 @@ hr{
   padding: 1rem;
   
 }
+.navigation .links:hover{
+  color:#DF6C4F;
+  border:1px #DF6C4F
+}
 
 .navigation .links {
   color: white;
@@ -158,3 +162,8 @@ text-align:center;
   margin: 2rem 0;
 }
 
+.sec-bor{
+  border:3px;
+  border-style: solid;
+  border-color: #DF6C4F;
+}
