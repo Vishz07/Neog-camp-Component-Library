@@ -12,6 +12,12 @@ body{
   
 }
 
+.nav-brand a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
 .container{
   padding: 1rem 1rem;
 }
