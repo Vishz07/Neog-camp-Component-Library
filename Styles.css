@@ -181,3 +181,49 @@ text-align:center;
   border-style: solid;
   border-color: #DF6C4F;
 }
+
+/* Second portfolio design */
+.cards:hover{
+  transform: scale(1.05);
+}
+.cards{
+ width: 20%; 
+ background-color:var(--offwhite);
+ border-radius: 10px;
+ margin: 50px;
+ box-shadow: 2px 2px 10px black;
+ display: inline-block;
+ /* Remove */
+ 
+}
+
+.image img{
+  width: 100%;
+  border-top:10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.title{
+  text-align: center;
+}
+.description{
+  text-align: center;
+}
+
+.card-btn{
+  margin: 20px;
+  font-size: 20px;
+  border-width: 2px;
+  border-radius: 10px;
+  background-color: #49c5b6;
+  box-shadow: 0.5px 0.5px 2px black;
+  position: relative;
+  
+}
+.card-btn:hover{
+  background-color: #DF6C4F;
+  transition: 100ms;
+  cursor: pointer;
+  transform: scale(1.05);
+}
